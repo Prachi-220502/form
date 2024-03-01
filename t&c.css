@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms And Conditions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            height: 4px;
+            width: 40%;
+            border-width: 0;
+            background-color: gray;
+            margin: 0 auto;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        li > ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        li > ul > li {
+            margin-bottom: 10px;
+        }
+
+        li > ul > li:last-child {
+            margin-bottom: 0;
+        }
+
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            hr {
+                width: 60%;
+            }
+
+            ol {
+                padding-left: 10px;
+            }
+
+            li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Terms And Conditions</h1>
+    <hr>
+    <ol type="1">
+        <li style="font-weight: bold; font-size: large;">Introduction and Acceptance of Terms:</li>
+        <ul>
+            <li>Clearly state that by using the website and its services, users agree to abide by the terms and conditions outlined.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Use of Customer Images and Videos:</li>
+        <ul>
+            <li>Specify that by uploading or providing images and videos, customers grant the website and its operators the right to use, modify, and display these materials for the purpose of creating and delivering personalized 3D greetings cards.</li>
+            <li>Clarify that customers retain ownership of their images and videos and that the website will not use them for any other purpose without explicit consent.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Intellectual Property Rights:</li>
+        <ul>
+            <li>Assert that the website and its contents, including proprietary software, designs, and logos, are protected by intellectual property laws and cannot be reproduced or used without permission.</li>
+            <li>Clarify that customers may not use the website's content for commercial purposes without obtaining proper authorization.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Ordering and Payment:</li>
+        <ul>
+            <li>Detail the process for placing orders, including payment methods accepted, pricing, shipping costs, and delivery times.</li>
+            <li>Specify any applicable taxes or additional fees that may apply to orders.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Liability and Disclaimers:</li>
+        <ul>
+            <li>Limit the website's liability for any damages or losses arising from the use of its services or products, including but not limited to technical issues, errors, or delays.</li>
+            <li>Advise customers to use the website and its services at their own risk and to verify the accuracy of personalization details before submitting orders.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Changes to Terms and Conditions:</li>
+        <ul>
+            <li>Reserve the right to modify or update the terms and conditions at any time, with or without prior notice, and advise customers to review them periodically for changes.</li>
+        </ul>
+        <li style="font-weight: bold; font-size: large;">Contact Information:</li>
+        <ul>
+            <li>Provide contact details for customer support or inquiries regarding the terms and conditions, orders, or any other concerns.</li>
+        </ul>
+    </ol>
+</body>
+</html>
