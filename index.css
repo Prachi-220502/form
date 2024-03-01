@@ -1,0 +1,63 @@
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width to fit better on smaller screens */
+    max-width: 500px; /* Limit maximum width */
+    padding: 40px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    padding-bottom: 12px;
+  }
+  
+  .user-box {
+    margin-bottom: 20px; /* Add spacing between input fields */
+  }
+  
+  .user-box input,
+  .user-box textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    transition: border-bottom-color 0.3s; /* Add transition effect */
+  }
+  
+  .user-box input:focus,
+  .user-box textarea:focus {
+    outline: none;
+    border-bottom-color: #03e9f4; /* Change border color on focus */
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add spacing */
+  }
+  
+  .submit-box {
+    text-align: center; /* Center button */
+    padding: 10px 0;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #03e9f4;
+    border-radius: 25px; /* Increase border radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+  }
+  
+  .submit-box:hover {
+    background-color: #03e9f4; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  

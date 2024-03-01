@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Form Friend</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <div class="login-box">
+      <h2>Please fill details below!</h2>
+  
+      <form id="Details_Form">
+        <div class="user-box">
+          <input id="user_name" type="text" name="S_Name" required="">
+          <label for="user_name">Sender's Name</label>
+        </div>
+        <div class="user-box">
+          <input id="receiver_name" type="text" name="R_Name" required="">
+          <label for="receiver_name">Receiver's Name</label>
+        </div>
+        <div class="user-box">
+          <textarea id="greeting_msg" name="G_message" rows="4" required=""></textarea>
+          <label for="greeting_msg">Greeting Message</label>
+        </div>
+        <div class="user-box">
+          <input id="pic_friend" class="file" type="file" name="" accept="image/png, image/jpeg" multiple maxlength="6">
+          <label for="pic_friend">Photos</label>
+        </div>
+        <div class="user-box">
+          <input id="video" class="file" type="file" name="" accept="video/mp4" max-size="20000">
+          <label for="video">Video</label>
+        </div>
+        <div class="terms">
+          <input id="chkbox" type="checkbox" required="">
+          <label for="chkbox">Agree to our <a id="link" href="t&c.html" target="_blank">Terms & Conditions</a></label>
+        </div>
+        <div id="submit-btn" class="submit-box">Create</div>
+      </form>
+    </div>
+  </body>
+</html>
+  
